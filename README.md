@@ -7,9 +7,14 @@
    要是在根目录下的 package.json 自动添加 workspaces 的话
    npm init -w 名字
 
-4. 把包添加到 root `package.json pnpm install @xz-ui/theme-chalk -w·
+4. 把包添加到 root `package.json pnpm install @xz-ui/theme-chalk -w
 5. 在包下安装 pnpm i element-plus -r --filter @xz-ui/components
 6. 全局安装 pnpm install vue typescript @types/node -D -w
 7. 启动 play 根目录下的 package.json scripts: "dev": "pnpm -C ./packages/play dev"
 
 pnpm setup? 在执行 pnpm -g 的时候没法全局安装 所以要执行这个命令
+
+## typescript 配置
+
+1. 在根路径下执行 pnpm tsc --init
+2. tsconfig.json 拆分成细小颗粒
