@@ -3,8 +3,8 @@
 layout: home
 
 hero:
-  name: "鸡哥UI库"
-  text: "基于element-plus 的业务UI库"
+  name: "鸡哥UI"
+  text: "小黑子们使用"
   tagline: 唱/跳/rapper
   image:
     # 首页右边的图片
@@ -15,15 +15,15 @@ hero:
     - theme: brand
       text: 快速开始
       link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+    # - theme: alt
+    #   text: API Examples
+    #   link: /api-examples
 
 features:
-  - title: 集成element-ui组件库
-    details: 基于element-ui封装的组件库
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: 鸡你太美
+    details: 鸡你太美……
+  - title: 小黑子露出鸡脚
+    details: 黑子才露小鸡脚，早有kunkun立上头
+  - title: ikun
+    details: ikun永相随
 ---
