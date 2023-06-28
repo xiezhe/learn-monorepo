@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "鸡哥UI"
   text: "小黑子们使用"
-  tagline: 唱/跳/rapper
+  tagline: 唱/跳/rap
   image:
     # 首页右边的图片
     src: /ji.jpg

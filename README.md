@@ -18,3 +18,11 @@ pnpm setup? 在执行 pnpm -g 的时候没法全局安装 所以要执行这个�
 
 1. 在根路径下执行 pnpm tsc --init
 2. tsconfig.json 拆分成细小颗粒
+
+## npx eslint --init 报错
+
+ERR_PNPM_ADDING_TO_ROOT  Running this command will add the dependency to the workspace root, which might
+not be what you want - if you really meant it, make it explicit by running this command again with the -w
+flag (or --workspace-root). If you don't want to see this warning anymore, you may set the ignore-workspace-root-check setting to true.
+
+解决： `pnpm config set ignore-workspace-root-check true`
